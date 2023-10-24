@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The ABC's of CSS</title>
     <link rel="stylesheet" href="css/style.css" />
-    <script src="js/style.js"></script>
   </head>
   <body>
     <div class="full page">
@@ -25,39 +24,31 @@
 
       <div class="grid-container">
         <div class="grid-item">
-          <div id="hide">
-            <img
-              src="./images/css-letter-a.png"
-              alt="A of CSS learning"
-              id="imgA"
-            />
-            <button type="button" id="hideButton">Hide</button>
+          <div id="divA">
+            <img src="./images/css-letter-a.png" alt="A of CSS learning" />
+            <button type="button" id="hideButtonA">Hide</button>
           </div>
           <br />
 
-          <div id="buttonC">
-            <button type="button">A</button>
+          <div>
+            <button type="button" id="showButtonA">A</button>
           </div>
         </div>
 
         <div class="grid-item">
-          <div id="hide">
-            <img
-              src="./images/css-letter-b.png"
-              alt="B of CSS learning"
-              id="imgB"
-            />
-            <button type="button" id="hideButton">Hide</button>
+          <div id="divB">
+            <img src="./images/css-letter-b.png" alt="B of CSS learning" />
+            <button type="button" id="hideButtonB">Hide</button>
           </div>
           <br />
 
-          <div id="buttonB">
-            <button type="button">B</button>
+          <div>
+            <button type="button" id="showButtonB">B</button>
           </div>
         </div>
 
         <div class="grid-item">
-          <div id="hide">
+          <div id="divC">
             <img
               src="./images/css-letter-c.png"
               alt="C of CSS learning"
@@ -67,11 +58,13 @@
           </div>
           <br />
 
-          <div id="buttonC">
-            <button type="button">C</button>
+          <div>
+            <button type="button" id="showButtonC">C</button>
           </div>
         </div>
       </div>
     </div>
+
+    <script src="js/style.js"></script>
   </body>
 </html>

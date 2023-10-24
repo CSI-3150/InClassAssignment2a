@@ -1,16 +1,30 @@
-const showC = document.getElementById("buttonC");
-const hideC = document.getElementById("hideButtonC");
-const imageC = document.getElementById("imgC");
+const divA = document.getElementById("divA");
+const divB = document.getElementById("divB");
+const divC = document.getElementById("divC");
+const showButtonA = document.getElementById("showButtonA");
+const hideButtonA = document.getElementById("hideButtonA");
+const showButtonB = document.getElementById("showButtonB");
+const hideButtonB = document.getElementById("hideButtonB");
+const showButtonC = document.getElementById("showButtonC");
+const hideButtonC = document.getElementById("hideButtonC");
 
-//Listeners for C
-showC.addEventListener("click", () => {
-  hideC.style.display = "block";
-  imageC.style.display = "block";
-  showC.style.display = "none";
+showButtonA.addEventListener("click", () => {
+  divA.style.display = "block";
+});
+hideButtonA.addEventListener("click", () => {
+  divA.style.display = "none";
+});
+showButtonB.addEventListener("click", () => {
+  divB.style.display = "block";
+});
+hideButtonB.addEventListener("click", () => {
+  divB.style.display = "none";
 });
 
-hideC.addEventListener("click", () => {
-  hideC.style.display = "none";
-  imageC.style.display = "none";
-  showC.style.display = "block";
+showButtonC.addEventListener("click", () => {
+  divC.style.display = "block";
+});
+
+hideButtonC.addEventListener("click", () => {
+  divC.style.display = "none";
 });
