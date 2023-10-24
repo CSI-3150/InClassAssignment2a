@@ -10,7 +10,7 @@
 
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
+
   padding: 20px;
   font-size: 30px;
   text-align: center;
@@ -18,4 +18,84 @@
 
 #hide {
   display: none;
+}
+.fullpage {
+  border: 2px solid orange;
+}
+#welcomeText {
+  border: 2px solid orange;
+}
+#clickText {
+  border: 2px solid orange;
+}
+
+#hideButtonA {
+  background-color: #008cba;
+  color: white;
+  display: block;
+  width: 100%;
+  border: none;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+#hideButtonB {
+  background-color: #008cba;
+  color: white;
+  display: block;
+  width: 100%;
+  border: none;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+#hideButtonC {
+  background-color: #008cba;
+  color: white;
+  display: block;
+  width: 100%;
+  border: none;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+#divA {
+  border: 2px solid orange;
+}
+
+#divB {
+  border: 2px solid orange;
+}
+
+#divC {
+  border: 2px solid orange;
+}
+
+#showButtonA {
+  font-size: 16px;
+  border: none;
+  background-color: white;
+  border: 2px solid orange;
+  width: 70px;
+  height: 40px;
+}
+#showButtonB {
+  font-size: 16px;
+  border: none;
+  background-color: white;
+  border: 2px solid orange;
+  width: 70px;
+  height: 40px;
+}
+#showButtonC {
+  font-size: 16px;
+  border: none;
+  background-color: white;
+  border: 2px solid orange;
+  width: 70px;
+  height: 40px;
 }
